@@ -18,7 +18,7 @@ public class Mission {
     @Column(name = "content")
     private String description;
 
-    @Column(name = "dateOfCreation")
+    @Column(name = "created")
     private Date date = new Date(new java.util.Date().getTime());
 
     public Mission(String description) {
